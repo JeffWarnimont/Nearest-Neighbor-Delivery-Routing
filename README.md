@@ -1,6 +1,6 @@
 # Nearest-Neighbor-Delivery-Routing
 
-This is a delivery routing simulation application written in Python 3.10 utilizing PyCharm Community Edition 2022.1.1 to address delivery of a list of packages with deadlines, delays, dependencies, and other conflicts. All packages need to be delivered by individual dedlines and the total travel of all 3 available trucks has to be under a certain mileage threshold.  The application utilizes a nearest neighbor algorithm for delivery routing.
+This is a delivery routing simulation application written in Python 3.10 utilizing PyCharm Community Edition 2022.1.1 to address delivery of a list of packages with deadlines, delays, dependencies, and other conflicts. All packages need to be delivered by individual deadlines and the total travel of all 3 available trucks has to be under a certain mileage threshold.  The application utilizes a nearest neighbor algorithm for delivery routing.
 
 
 
