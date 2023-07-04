@@ -10,8 +10,12 @@ class PackageHashTable:
         try:
             package_count = int(input('How many packages are we delivering today?'))
             self.package_table = []
-            for i in range(package_count):
-                self.package_table.append([])
+            if package_count >= 1:
+                for i in range(package_count):
+                    self.package_table.append([])
+            else:
+                print("Invalid entry. Try again.")
+                exit()
         except ValueError:
             print("Invalid entry. Try again.")
             exit()
